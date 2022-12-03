@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "requests",
+    "click",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AoC"
+version = "0.1.0"
+authors = [
+  { name="TheSuperGamer20578" },
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+aoc = "aoc._cli.aoc:aoc"
